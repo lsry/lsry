@@ -1,0 +1,103 @@
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经验",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "个人评价"
+    },
+    "avatar": {
+        "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
+        "hidden": true
+    },
+    "profile": {
+        "name": "李胜",
+        "email": " lsry@mail.ustc.edu.cn ",
+        "mobile": "15927378917",
+        "年龄": 28,
+        "workExpYear": ""
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2014.09.01",
+                "2018.06.30"
+            ],
+            "school": "武汉大学",
+            "major": "印刷工程-本科",
+            "dataIndex": 0
+        },
+        {
+            "edu_time": [
+                "2018.09.01",
+                "2023.06.30"
+            ],
+            "school": "中国科学技术大学",
+            "major": "软件工程-硕士结业"
+        }
+    ],
+    "awardList": [],
+    "workExpList": [
+        {
+            "company_name": "同程艺龙",
+            "department_name": "上海研发组",
+            "work_time": [
+                "2021.06",
+                "2022.09"
+            ],
+            "work_desc": "1.担任后端开发实习工程师\n2.负责线下票台系统相关需求开发\n3.对接产品，业务人员等，处理相关人员有关系统使用，数据异常的错误",
+            "dataIndex": 0
+        }
+    ],
+    "skillList": [
+        {
+            "skill_desc": "掌握操作系统，计算机网络，数据结构算法等计算机相关基础知识。"
+        },
+        {
+            "skill_desc": "掌握 Java 语言并了解 Spring，Spring MVC，Spring boot 等相关技术的使用。"
+        },
+        {
+            "skill_desc": "熟悉 MySQL，Redis，RocketMQ等基本功能及相关原理，并进行项目开发。",
+            "dataIndex": 2
+        },
+        {
+            "skill_desc": "熟悉 Linux 相关命令并进行项目部署。"
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "线下票台供应商系统",
+            "project_role": "项目后端开发维护",
+            "project_time": "2021.06-2022.09",
+            "project_desc": "系统主要出票票台系统，OA 管理后台及业务后台三个主要前端系统及订单，分单，资源，财务等后端服务。\n主要功能为线下供应商管理，第三方供应商系统对接。承接火车票后端发来的火车票出票、退票单，将其分发给有关供应商，提供对应的出票，退票能力以及其他火车票，列车信息等相关服务。\n项目主要使用 Spring boot，SpringMVC，Mybatis，Redis，TurboMQ，MySQL，Kudu 等相关框架和组件。\n",
+            "project_content": "1.对接产品经理，参与日常需求分析并进行需求迭代，代码开发\n2.开发工单模块，对接公司工单系统，应用消息队列存储，发布有关工单信息，打通客服和供应商之间的沟通渠道；\n3.对接第三方供应商系统，撰写相关接口文档。",
+            "dataIndex": 0
+        },
+        {
+            "project_name": "供应商信息管理后端技术改造",
+            "project_role": "后端开发者",
+            "project_time": "2021.09-2021.12",
+            "project_desc": "供应商信息管理部分原先基于 Spring 的 MVC 三层架构模式进行开发。之后由于公司推行 Axon 框架及有关的领域驱动设计，命令查询职责分离，事件溯源等思想，同时作为技术储备而进行相关技术改造。\n项目使用的技术为 Spring boot，Axon，MongoDB，MySQL，MyBatis 等相关组件。",
+            "project_content": "负责供应商信息查询相关功能接口开发，使用 MySQL 作为读数据库，设计相关表结构，存储命令部分传输过来的事件有关信息，为前端查询提供必要的供应商信息。",
+            "dataIndex": 1
+        },
+        {
+            "project_name": "手机商城",
+            "project_role": "开发者",
+            "project_time": "2023.03-至今",
+            "project_desc": "本项目为学习项目，具体功能为用户登录，手机信息管理，购买等流程。\n具体使用技术前端为 Vue 框架和 element-plus 组件库，后端基于 Spring cloud 微服务体系，包含 Spring Security，MySQL，Redis 等组件。",
+            "project_content": "使用相关技术开发主要功能，完成整个网站建设。",
+            "dataIndex": 2
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "有事业心与责任心，工作积极认真，新项目上手很快。\n 对新事物有很强的好奇心，喜欢做有挑战的事情。\n 为人踏实，善于沟通，具有很强的团队意识和协作能力。\n"
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
